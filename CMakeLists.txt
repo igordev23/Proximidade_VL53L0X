@@ -69,6 +69,7 @@ target_include_directories(proximidade-vl53l0x PRIVATE
 target_link_libraries(proximidade-vl53l0x
     pico_stdlib
     hardware_i2c
+    hardware_pwm
 )
 
 pico_add_extra_outputs(proximidade-vl53l0x)
